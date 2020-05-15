@@ -1,4 +1,4 @@
-# personal-website-bootstrap
+# Personal website
 
 ## Aim
 Build personal website for personal branding
