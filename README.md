@@ -1,7 +1,8 @@
 # personal-website-bootstrap
 
 ## Aim
-Build personal website for personal brandig
+Build personal website for personal branding
+
 ## Objectives
 
 1. Create a new Git repo 
