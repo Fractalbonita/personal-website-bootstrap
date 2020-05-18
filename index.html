@@ -13,174 +13,194 @@
     <script defer src="js/bootstrap.bundle.js"></script>
     <title>Fractalbonita</title>
   </head>
-  <body>
-    <header>
-      <h1>Name</h1>
+  <body class="container-fluid px-0">
+    <header
+      class="container d-flex flex-column align-items-center py-3 bg-transparent"
+    >
+      <h1 class="mb-0 h2">Name</h1>
       <nav>
-        <ul>
-          <li>
+        <ul class="list-group list-unstyled list-group-horizontal">
+          <li class="list-group-item border-0 bg-transparent pb-1 pt-2">
             <a href="#contact">Contact</a>
           </li>
-          <li>
+          <li class="list-group-item border-0 bg-transparent pb-1 pt-2">
             <a href="#biography">Biography</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div>
-        <div>
-          <section id="elevator-pitch">
+      <div class="bg-light">
+        <div class="container row mx-auto px-0 py-3">
+          <section
+            id="elevator-pitch"
+            class="col-12 text-center"
+          >
             <img
               src="https://picsum.photos/id/64/540/280"
               alt="Me portrayed in front of a field holding daisy flowers"
+              class="img-fluid rounded"
             />
-            <p>
+            <p class="text-justify pt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae accusamus quae, nisi necessitatibus, recusandae
               delectus adipisci, temporibus perferendis natus vero fugiat? Alias
               suscipit aliquid sint minima explicabo? Modi, assumenda ea.
             </p>
           </section>
-          <div>
+          <div class="col-12">
             <section id="skills">
-              <h2>Skills</h2>
-              <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
+              <h2 class="h4">Skills</h2>
+              <ul class="list-unstyled h5">
+                <li class="badge badge-pill badge-success">Lorem</li>
+                <li class="badge badge-pill badge-success">Lorem</li>
+                <li class="badge badge-pill badge-success">Lorem</li>
+                <li class="badge badge-pill badge-success">Lorem</li>
+                <li class="badge badge-pill badge-success">Lorem</li>
+                <li class="badge badge-pill badge-success">Lorem</li>
+                <li class="badge badge-pill badge-success">Lorem</li>
               </ul>
             </section>
             <section id="interests">
-              <h2>Interests</h2>
-              <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
+              <h2 class="h4">Interests</h2>
+              <ul class="list-unstyled h5">
+                <li class="badge badge-pill badge-info">Lorem</li>
+                <li class="badge badge-pill badge-info">Lorem</li>
+                <li class="badge badge-pill badge-info">Lorem</li>
+                <li class="badge badge-pill badge-info">Lorem</li>
+                <li class="badge badge-pill badge-info">Lorem</li>
               </ul>
             </section>
           </div>
         </div>
       </div>
 
-      <div>
-        <address id="contact">
-          <h3>Mail</h3>
+      <div class="container mx-auto">
+        <address id="contact" class="my-4">
+          <h3 class="h5">Mail</h3>
           <p>
             <a href="tel:+04912345678">0049-12345678</a>
           </p>
 
-          <h3>Phone</h3>
+          <h3 class="h5">Phone</h3>
           <p>
             <a href="mailto:mail@example.com">mail@example.com</a>
           </p>
         </address>
         <section id="social-media">
-          <div>
-            <figure>
-              <a href="https://github.com/Fractalbonita" target="blank">
+          <div
+            class="d-flex flex-column align-items-center"
+          >
+            <a href="https://github.com/Fractalbonita" target="_blank">
+              <figure class="border border-dark rounded">
                 <img
                   src="https://picsum.photos/400/210"
                   alt="The Github logo"
+                  class="img-fluid rounded-top"
                 />
-              </a>
-              <figcaption>Github</figcaption>
-            </figure>
-            <figure>
-              <a href="https://codepen.io/dashboard/" target="blank">
+
+                <figcaption class="h5 text-center pt-2 pb-1">Github</figcaption>
+              </figure>
+            </a>
+            <a href="https://codepen.io/dashboard/" target="_blank">
+              <figure class="border border-dark rounded">
                 <img
                   src="https://picsum.photos/400/210"
                   alt="The CodePen logo"
+                  class="img-fluid rounded-top"
                 />
-              </a>
-              <figcaption>CodePen</figcaption>
-            </figure>
-            <figure>
-              <a href="https://" target="blank">
-                <img src="https://picsum.photos/400/210" alt="The Xing logo" />
-              </a>
-              <figcaption>Xing</figcaption>
-            </figure>
+
+                <figcaption class="h5 text-center pt-2 pb-1">CodePen</figcaption>
+              </figure>
+            </a>
+            <a href="https://xing.com" target="_blank">
+              <figure class="border border-dark rounded">
+                <img
+                  src="https://picsum.photos/400/210"
+                  alt="The Xing logo"
+                  class="img-fluid rounded-top"
+                />
+
+                <figcaption class="h5 text-center pt-2 pb-1">Xing</figcaption>
+              </figure>
+            </a>
           </div>
         </section>
       </div>
-      <div>
-        <div>
-          <article id="about">
-            <h2>About me</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
-              fuga dolore perferendis, repellendus in beatae odio sed accusamus
-              facilis accusantium quam sunt eius iste unde voluptatibus iure!
-              Beatae, rem in?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-              nesciunt iusto. Ipsum id delectus animi enim ex numquam natus
-              error! Repellat, cupiditate? Sed quisquam sapiente magnam
-              consequatur inventore cumque fugiat laudantium est dolorem hic
-              harum, voluptas temporibus assumenda veritatis neque?
-            </p>
+      <div class="bg-light">
+        <div class="container row mx-auto px-0 py-3">
+          <article id="about" class="col-12">
+            <h2 class="h4">About me</h2>
+            <div class="text-justify pb-1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
+                fuga dolore perferendis, repellendus in beatae odio sed accusamus
+                facilis accusantium quam sunt eius iste unde voluptatibus iure!
+                Beatae, rem in?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                nesciunt iusto. Ipsum id delectus animi enim ex numquam natus
+                error! Repellat, cupiditate? Sed quisquam sapiente magnam
+                consequatur inventore cumque fugiat laudantium est dolorem hic
+                harum, voluptas temporibus assumenda veritatis neque?
+              </p>
+            </div>
           </article>
-          <article id="resume">
+          <article id="resume" class="col-12">
             <section>
-              <h2>Experience</h2>
-              <ul>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-              </ul>
+              <h2 class="h4">Experience</h2>
+              <table class="table table-borderless">
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+              </table>
+              
             </section>
             <section>
-              <h2>Education</h2>
-              <ul>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-                <li>
-                  <h4>Lorem</h4>
-                  <p>Lorem ipsum dolor sit.</p>
-                </li>
-              </ul>
+              <h2 class="h4">Education</h2>
+              <table class="table table-borderless">
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td>0000</td>
+                  <td>Lorem ipsum</td>
+                </tr>
+                </table>
             </section>
           </article>
         </div>
       </div>
     </main>
-    <footer>
-      <p>&copy; 2020 Name | <a href="#imprint">Imprint</a></p>
+    <footer class="container d-flex flex-column align-items-center my-3 bg-transparent">
+      <p class="m-0">&copy; 2020 Name | <a href="#imprint">Imprint</a></p>
     </footer>
   </body>
 </html>
