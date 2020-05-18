@@ -15,7 +15,7 @@
   </head>
   <body class="container-fluid px-0">
     <header
-      class="container d-flex flex-column align-items-center py-3 bg-transparent"
+      class="container d-flex flex-column align-items-center py-3 bg-transparent flex-md-row align-items-md-end justify-content-md-between"
     >
       <h1 class="mb-0 h2">Name</h1>
       <nav>
@@ -31,24 +31,24 @@
     </header>
     <main>
       <div class="bg-light">
-        <div class="container row mx-auto px-0 py-3">
+        <div class="container row mx-auto px-0 py-3 pb-md-0">
           <section
             id="elevator-pitch"
-            class="col-12 text-center"
+            class="col-12 text-center col-lg-6 col-md-8 col-sm-8"
           >
             <img
               src="https://picsum.photos/id/64/540/280"
               alt="Me portrayed in front of a field holding daisy flowers"
               class="img-fluid rounded"
             />
-            <p class="text-justify pt-2">
+            <p class="text-justify text-break pt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae accusamus quae, nisi necessitatibus, recusandae
               delectus adipisci, temporibus perferendis natus vero fugiat? Alias
               suscipit aliquid sint minima explicabo? Modi, assumenda ea.
             </p>
           </section>
-          <div class="col-12">
+          <div class="col-12 col-lg-6 col-md-4 col-sm-4">
             <section id="skills">
               <h2 class="h4">Skills</h2>
               <ul class="list-unstyled h5">
@@ -77,22 +77,25 @@
 
       <div class="container mx-auto">
         <address id="contact" class="my-4">
-          <h3 class="h5">Mail</h3>
-          <p>
-            <a href="tel:+04912345678">0049-12345678</a>
-          </p>
+          <div>
+            <h3 class="h5">Mail</h3>
+            <p>
+              <a href="tel:+04912345678">0049-12345678</a>
+            </p>
+          </div>
 
-          <h3 class="h5">Phone</h3>
-          <p>
-            <a href="mailto:mail@example.com">mail@example.com</a>
-          </p>
+          <div>
+            <h3 class="h5">Phone</h3>
+            <p>
+              <a href="mailto:mail@example.com">mail@example.com</a>
+            </p>
+          </div>
         </address>
-        <section id="social-media">
-          <div
+        <section id="social-media"
             class="d-flex flex-column align-items-center"
           >
             <a href="https://github.com/Fractalbonita" target="_blank">
-              <figure class="border border-dark rounded">
+              <figure class="border border-dark rounded shadow">
                 <img
                   src="https://picsum.photos/400/210"
                   alt="The Github logo"
@@ -103,7 +106,7 @@
               </figure>
             </a>
             <a href="https://codepen.io/dashboard/" target="_blank">
-              <figure class="border border-dark rounded">
+              <figure class="border border-dark rounded shadow">
                 <img
                   src="https://picsum.photos/400/210"
                   alt="The CodePen logo"
@@ -114,7 +117,7 @@
               </figure>
             </a>
             <a href="https://xing.com" target="_blank">
-              <figure class="border border-dark rounded">
+              <figure class="border border-dark rounded shadow">
                 <img
                   src="https://picsum.photos/400/210"
                   alt="The Xing logo"
@@ -124,14 +127,13 @@
                 <figcaption class="h5 text-center pt-2 pb-1">Xing</figcaption>
               </figure>
             </a>
-          </div>
         </section>
       </div>
       <div class="bg-light">
         <div class="container row mx-auto px-0 py-3">
           <article id="about" class="col-12">
-            <h2 class="h4">About me</h2>
-            <div class="text-justify pb-1">
+            <h2 class="h4 text-md-center">About me</h2>
+            <div class="text-justify text-break pb-1">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum,
                 fuga dolore perferendis, repellendus in beatae odio sed accusamus
@@ -149,8 +151,8 @@
           </article>
           <article id="resume" class="col-12">
             <section>
-              <h2 class="h4">Experience</h2>
-              <table class="table table-borderless">
+              <h2 class="h4 text-md-center">Experience</h2>
+              <table class="table table-borderless text-md-center">
                 <tr>
                   <td>0000</td>
                   <td>Lorem ipsum</td>
@@ -179,8 +181,8 @@
               
             </section>
             <section>
-              <h2 class="h4">Education</h2>
-              <table class="table table-borderless">
+              <h2 class="h4 text-md-center">Education</h2>
+              <table class="table table-borderless text-md-center">
                 <tr>
                   <td>0000</td>
                   <td>Lorem ipsum</td>
