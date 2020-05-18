@@ -14,13 +14,13 @@ Build personal website for personal branding
 >IMPORTANT: Mobile and Desktop with same content
 
 ## Tasks
-- [x] Specify the content of the page
+- [x] Brainstorm the content of the page
 - [x] Search for images 
 - [x] Define the semantic structure
-- [ ] Layout and style for mobile
-- [ ] Layout and style for tablet
+- [X] Layout and style for mobile
+- [X] Layout and style for tablet
 - [ ] Layout and style for desktop
 - [ ] Design page
+- [ ] Ease accessibility
 - [ ] Fill page with text content
-
 
