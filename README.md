@@ -14,14 +14,18 @@ Build personal website with placeholder text and photo. Mobile and desktop with 
 ## Impressions
 
 **Desktop**
-<img src="./images/Screenshot-desktop.png" height="6.245">
+
+<img src="./images/Screenshot-desktop.png" height="500">
 
 **Tablet**
-<img src="./images/Screenshot-tablet.png" height="6.82">
+
+<img src="./images/Screenshot-tablet.png" height="400">
 
 **iPad**
-<img src="./images/Screenshot-iPad-top.png" height="9.215">
-<img src="./images/Screenshot-iPad-bottom.png" height="8.995">
+
+<img src="./images/Screenshot-iPad-top.png" height="500">
+<img src="./images/Screenshot-iPad-bottom.png" height="500">
 
 **Mobile**
-<img src="./images/Screenshot-mobile.png" height="6.3">
+
+<img src="./images/Screenshot-mobile.png" height="400">
