@@ -1,26 +1,20 @@
 # Personal website
 
 ## Aim
-Build personal website for personal branding
 
-## Objectives
+Build personal website with placeholder text and photo. Mobile and desktop with same content.
 
-1. Create a new Git repo 
-2. Create a local repo
-3. Start building the index.html
-4. Layout website inserting Bootstrap classes
-5. Style with Bootstrap using wireframes as template
+## Tech stack
 
->IMPORTANT: Mobile and Desktop with same content
+- HTML
+- CSS
+- Bootstrap
+- Responsive
 
-## Tasks
-- [x] Brainstorm the content of the page
-- [x] Search for images 
-- [x] Define the semantic structure
-- [X] Layout and style for mobile
-- [X] Layout and style for tablet
-- [x] Layout and style for desktop
-- [x] Design page
-- [ ] Ease accessibility
-- [ ] Fill page with text content
+## Impressions
 
+<img src="./images/Screenshot-desktop.png"> 
+<img src="./images/Screenshot-tablet.png">
+<img src="./images/Screenshot-iPad-top.png">
+<img src="./images/Screenshot-iPad-bottom.png">
+<img src="./images/Screenshot-mobile.png">
