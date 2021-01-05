@@ -23,8 +23,8 @@ Build personal website with placeholder text and photo. Mobile and desktop with 
 
 **iPad**
 
-<img src="./images/Screenshot-iPad-top.png" height="500">
-<img src="./images/Screenshot-iPad-bottom.png" height="500">
+<img src="./images/Screenshot-iPad-top.png" height="400">
+<img src="./images/Screenshot-iPad-bottom.png" height="400">
 
 **Mobile**
 
